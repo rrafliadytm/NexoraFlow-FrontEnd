@@ -52,7 +52,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
           <select
             value={selectedCountry}
             onChange={handleCountryChange}
-            className="appearance-none rounded-l-lg border border-gray-200  py-3 pl-3.5 pr-8 leading-tight text-gray-700 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 bg-white dark:border-neutral-700 dark:text-gray-400 dark:bg-neutral-800"
+            className="appearance-none rounded-l-lg border border-gray-200  py-3 pl-3.5 pr-8 leading-tight text-gray-700 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 bg-white dark:border-neutral-700 dark:text-gray-400 dark:bg-neutral-950"
             
           >
             {countries.map((country) => (
@@ -94,7 +94,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
         placeholder={placeholder}
         className={`dark:bg-dark-900  w-full ${
           selectPosition === "start" ? "pl-[84px]" : "pr-[84px]"
-        } rounded-lg border border-gray-300 bg-transparent py-3 px-4 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-neutral-700  dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800`}
+        } rounded-lg border border-gray-300 bg-transparent py-3 px-4 text-sm text-gray-800 shadow-theme-xs placeholder:text-gray-400 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 dark:border-neutral-700  dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-800 dark:bg-neutral-950`}
       />
 
       {/* Dropdown position: End */}
@@ -103,7 +103,7 @@ const PhoneInput: React.FC<PhoneInputProps> = ({
           <select
             value={selectedCountry}
             onChange={handleCountryChange}
-            className="appearance-none rounded-r-lg border border-gray-2003 pl-3.5 pr-8 leading-tight text-gray-700 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 bg-white dark:border-neutral-700 dark:text-gray-400 dark:bg-neutral-800 py-3"
+            className="appearance-none rounded-r-lg border border-gray-2003 pl-3.5 pr-8 leading-tight text-gray-700 focus:border-brand-300 focus:outline-hidden focus:ring-3 focus:ring-brand-500/10 bg-white dark:border-neutral-700 dark:text-gray-400 dark:bg-neutral-950 py-3"
           >
             {countries.map((country) => (
               <option

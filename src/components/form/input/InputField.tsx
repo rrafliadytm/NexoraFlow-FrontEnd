@@ -34,7 +34,7 @@ const Input: FC<InputProps> = ({
   hint,
 }) => {
   // Determine input styles based on state (disabled, success, error)
-  let inputClasses = `h-11 w-full rounded-lg border appearance-none px-4 py-2.5 text-sm shadow-theme-xs placeholder:text-gray-400 focus:outline-hidden focus:ring-3  dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-1000 ${className}`;
+  let inputClasses = `h-11 w-full rounded-lg border appearance-none px-4 py-2.5 text-sm shadow-theme-xs placeholder:text-gray-400 focus:outline-hidden focus:ring-3  dark:text-white/90 dark:placeholder:text-white/30 dark:focus:border-brand-1000 dark:bg-neutral-950 ${className}`;
 
   // Add styles for the different states
   if (disabled) {
