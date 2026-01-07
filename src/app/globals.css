@@ -139,9 +139,9 @@
   --color-neutral-500: #79716b;
   --color-neutral-600: #58524d;
   --color-neutral-700: #45403c;
-  --color-neutral-800: #141211;
+  --color-neutral-800: #141211; /* Card Color */
   --color-neutral-900: #2a2725;
-  --color-neutral-950: #0c0a09;
+  --color-neutral-950: #0c0a09; /* BG Color */
 
 
   --color-theme-pink-500: #ee46bc;

@@ -27,7 +27,8 @@ const DropzoneComponent: React.FC = () => {
         ${
           isDragActive
             ? "border-brand-500 bg-gray-100 dark:border-neutral-700"
-            : "border-gray-300 bg-gray-50 dark:border-neutral-700 "
+            : "border-gray-300 dark:bg-neutral-950 dark:border-neutral-700 " 
+            /*Dropzone Box*/
         }
       `}
           id="demo-upload"
@@ -38,9 +39,9 @@ const DropzoneComponent: React.FC = () => {
           <div className="dz-message flex flex-col items-center m-0!">
             {/* Icon Container */}
             <div className="mb-[22px] flex justify-center">
-              <div className="flex h-[68px] w-[68px]  items-center justify-center rounded-full bg-gray-200 text-gray-700 dark:border-neutral-700 dark:text-gray-400 dark">
+              <div className="flex h-[68px] w-[68px]  items-center justify-center rounded-full bg-gray-200 text-gray-700 dark:border-neutral-700 dark:text-gray-400 dark:bg-neutral-800">
                 <svg
-                  className="fill-current"
+                  className="fill-current dark:fill-gray-400"
                   width="29"
                   height="28"
                   viewBox="0 0 29 28"
@@ -56,11 +57,11 @@ const DropzoneComponent: React.FC = () => {
             </div>
 
             {/* Text Content */}
-            <h4 className="mb-3 font-semibold text-gray-800 text-theme-xl dark:text-black">
+            <h4 className="mb-3 font-semibold text-gray-800 text-theme-xl dark:text-white">
               {isDragActive ? "Drop Files Here" : "Drag & Drop Files Here"}
             </h4>
 
-            <span className=" text-center mb-5 block w-full max-w-[290px] text-sm text-gray-700 dark:text-neutral-950">
+            <span className=" text-center mb-5 block w-full max-w-[290px] text-sm text-gray-700 dark:text-gray-400">
               Drag and drop your PNG, JPG, WebP, SVG images here or browse
             </span>
 
